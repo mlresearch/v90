@@ -1,0 +1,70 @@
+@Proceedings{MADE-2018,
+    booktitle = {Proceedings of the 1st International Workshop on Medication and Adverse Drug Event Detection},
+    name = {International Workshop on Medication and Adverse Drug Event Detection},
+    shortname = {MADE1.0},
+    editor = {Feifan Liu and Abhyuday Jagannatha and Hong Yu},
+    volume = {90},
+    year = {2018},
+    start = {2018-05-04},
+    end = {2018-05-04},
+    published = {2018-05-16},
+    url = {https://bio-nlp.org/index.php/announcements/39-nlp-challenges},
+    location = {Worcester, USA}
+}
+
+@InProceedings{yang18,
+    title = {Detecting Medications and Adverse Drug Events in Clinical Notes Using Recurrent Neural Networks},
+    author = {Yang, Xi and Bian, Jiang and Wu, Yonghui},
+    pages = {1-6},
+    abstract = {Early detection of Adverse Drug Events (ADEs) from Electronic Health Records (EHRs) is an important, challenging task to support pharmacovigilance and drug safety surveillance. The authors present a Recurrent Neural Network (RNN)-based system to detect medication name and its attributes (dosage, frequency, route, duration), as well as mentions of ADEs, Indications, other signs and symptoms from clinical notes. We developed an RNN-based Named Entity Recognition (NER) system implemented using Long-Short Term Memory (LSTM). Two NER models, RNN-1 and RNN-2, were developed using different training strategies. Both of the two models only utilized pretrained word embeddings provided by organizers without any extra feature engineering. The RNN-2 model achieved a top 3 performance (F1-score of 0.8233) for sub-task 1, demonstrating the efficiency of RNN for clinical NER tasks. }
+}
+
+@InProceedings{florez18,
+    title = {Named Entity Recognition using Neural Networks for Clinical Notes},
+    author = {Florez, Edson and  Precioso, Frederic and  Riveill, Michel and Pighetti, Romaric},
+    pages = {7-15},
+    abstract = {Currently, the best performance for Named Entity Recognition in medical notes is obtained by systems based on neural networks. These supervised systems require precise features in order to learn well fitted models from training data, for the purpose of recognizing medical entities like medication and Adverse Drug Events (ADE). Because it is an important issue before training the neural network, we focus our work on building comprehensive word representations (the input of the neural network), using character-based word representations and word representations. The proposed representation improves the performance of the baseline LSTM. However, it does not reach the performances of the top performing contenders in the challenge for detecting medical entities from clinical notes.}
+}
+
+@InProceedings{chapman18,
+    title = {Hybrid system for adverse drug event detection},
+    author = {Chapman, Alec B. and Peterson, Kelly S. and Alba, Patrick R. and DuVall, Scott L. and Patterson, Olga V.},
+    pages = {16-24},
+    abstract = {In context of the NLP Challenges for Detecting Medication and Adverse Drug Events from Electronic Health Records (MADE 1.0) \citep{Yu}, we built a hybrid natural language processing system that combined multiple algorithms and resources to identify the relationship between mentions of symptoms and drugs. Our system employed a conditional random field (CRF) model for named entity recognition (NER) and a random forest model for relation extraction (RE). Final performance of each model was evaluated separately and then combined on the challenge's hold-out evaluation set. The micro-averaged F1 score was 80.9\% for NER, 86.8\% for RE, and 59.2\% for the final system.}
+}
+
+@InProceedings{magge18,
+	title = {Clinical NER and Relation Extraction using Bi-Char-LSTMs \titlebreak and Random Forest Classifiers},
+	author = {Magge, Arjun and Scotch, Matthew and Gonzalez-Hernandez, Graciela},
+	pages = {25-30},
+	abstract = {Identifying named entities from electronic health record notes and extracting relations between the entities is a crucial task for many applications in clinical and public health informatics. In this work, we present an natural language processing pipeline consisting of a named entity recognizer for identifying 9 medical named entities in clinical notes and a random forests classifier for extracting 7 types of relations between the entities.}
+}
+
+@InProceedings{ngo18,
+	title = {Knowledge-based Feature Engineering for Detecting Medication and Adverse Drug Events from Electronic Health Records},
+	author = {Ngo, Duy-Hoa and Metke-Jimenez, Alejandro and Nguyen, Anthony},
+	pages = {31-38},
+	abstract = {This paper presents a Conditional Random Field (CRF) learning model integrated with a series of knowledge-based feature engineering functions for detecting medication and adverse drug events from electronic health records (EHRs). Our experimental evaluation shows high performance in terms of the F-score measure (83.4\% and 92.5\% respectively for strict and relax modes) in the detection of medication and clinical finding named entities. It also shows promising results (overall 78.8\% F-score) in the recognition of detailed properties of medication use as well as different types of clinical findings mentioned in electronic health records.}
+}
+
+@InProceedings{dandala18,
+	title = {IBM Research System at MADE 2018: Detecting Adverse Drug Events from Electronic Health Records},
+	author = {Dandala, Bharath and Joopudi, Venkata and Devarakonda, Murthy},
+	pages = {39-47},
+	abstract = {Adverse Drug Events (ADEs) are common and occur in approximately 2-5\% of hospitalized adult patients. Each ADE is estimated to increase healthcare cost by more than \$3,200. Severe ADEs rank among the top 5 or 6 leading causes of death in the United States. Prevention, early detection and mitigation of ADEs could save both lives and dollars. Employing Natural Language Processing (NLP) techniques on Electronic Health Records (EHRs) provides an effective way of real-time pharmacovigilance and drug safety surveillance. Thus, in this research, we developed a system for three different NLP tasks namely: Named Entity Recognition (NER), Relation Identification and Integrated task (integrative system to conduct NER and relation identification together). Our system achieved F-1 measures of 0.829 for Named Entity Recognition, 0.840 for Relation Identification and 0.617 for Integrated task. Our system ranked 1st in the integrated task and 2nd in both entity extraction and relation identification tasks.}
+}
+
+@InProceedings{wunnava18,
+	title = {Bidirectional LSTM-CRF for Adverse Drug Event Tagging \titlebreak in Electronic Health Records},
+	author = {Wunnava, Susmitha and Qin, Xiao and Kakar, Tabassum and Rundensteiner, Elke A. and Kong, Xiangnan},
+	pages = {48-56},
+	abstract = {\underline{A}dverse \underline{d}rug \underline{e}vent (ADE) detection is a vital step towards effective pharmacovigilance and prevention of future incidents caused by potentially harmful ADEs. \underline{E}lectronic \underline{h}ealth \underline{r}ecords (EHRs) of patients in hospitals contain valuable information regarding the ADEs and hence are an important source for detecting ADE signals. 
+	We have developed a deep learning based system that utilizes a three layered deep learning architecture of 1) RNN (\underline{bi}-directional \underline{l}ong \underline{s}hort-\underline{t}erm \underline{m}emory (bi-LSTM)) for character-level word representation 2) bi-LSTM for context representation and 3) Conditional Random Fields (CRF) for the final output prediction, by integrating them into one deep network architecture. Furthermore, we have developed customized rule-based tokenization techniques for preprocessing text to deal with the noise in the EHR text. In this paper, we share our system architecture and its performance w.r.t the MADE1.0 NLP challenge.}
+}
+
+@InProceedings{xu18,
+	title = {UArizona at the MADE1.0 NLP Challenge},
+	author = {Xu, Dongfang and Yadav, Vikas and Bethard, Steven},
+	pages = {57-65},
+	abstract = {MADE1.0 is a public natural language processing challenge aiming to extract medication and adverse drug events from Electronic Health Records. This work presents NER and RI systems developed by UArizona team for the MADE1.0 competition. We propose a neural NER system for medical named entity recognition using both local and context features for each individual word and a simple but effective SVM-based pairwise relation classification system for identifying relations between medical entities and attributes. Our system achieves 81.56\%, 83.18\%, and 59.85\% F1 score in the three tasks of MADE1.0 challenge, respectively, ranked amongst the top three teams for Task 2 and 3.}
+}

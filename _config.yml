@@ -1,0 +1,64 @@
+---
+booktitle: Proceedings of the 1st International Workshop on Medication and Adverse
+  Drug Event Detection
+shortname: MADE1.0
+volume: 90
+year: '2018'
+start: 2018-05-04
+end: 2018-05-04
+published: 2018-05-16
+url: http://proceedings.mlr.press
+location: Worcester, USA
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: MADE-2018
+month: 0
+cycles: false
+editor:
+- given: Feifan
+  family: Liu
+- given: Abhyuday
+  family: Jagannatha
+- given: Hong
+  family: Yu
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 1st International Workshop on Medication and Adverse Drug Event Detection on 04 May 2018
+
+  Published as Volume 90 by the Proceedings of Machine Learning Research on 16 May 2018.
+
+  Volume Edited by:
+    Feifan Liu
+    Abhyuday Jagannatha
+    Hong Yu
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 04 May
+baseurl: "/v90"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v90
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: International Workshop on Medication and Adverse Drug Event Detection
+  url: 
+  location: 
+  dates:
+  - 2018-05-04
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v90/proceeding.bib
